@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CS360</string>
+    <string name="Button1">MIS Curriculum</string>
+    <string name="Button2">FACULTY</string>
+    <string name="Button3">EVENTS</string>
+    <string name="activity2">Welcome to MIS Curriculum</string>
+    <string name="activity3">Welcome to FACULTY</string>
+    <string name="activity4">Welcome to EVENTS</string>
+    <string name="todo">TODO</string>
 </resources>

@@ -9,6 +9,6 @@ public class Activity4 extends AppCompatActivity {
     @Override
     protected void onPostCreate(@Nullable Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
-        setContentView(R.layout.activity3);
+        setContentView(R.layout.activity4);
     }
 }

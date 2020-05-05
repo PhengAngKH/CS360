@@ -10,7 +10,9 @@
         android:layout_height="match_parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@color/bg"
+        >
 
         <ImageView
             android:id="@+id/piu_head2"
@@ -21,10 +23,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Welcome to Faculty"
+            android:text="@string/activity3"
             android:layout_below="@+id/piu_head2"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="130dp"
+            android:textColor="@color/text"
             />
 
     </RelativeLayout>

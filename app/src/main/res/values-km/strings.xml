@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">គ្រប់គ្រងពត័មានវិទ្យា App</string>
+    <string name="Button1">កម្មវិធីសិក្សា</string>
+    <string name="Button2">មហាវិទ្យាល័យ</string>
+    <string name="Button3">ព្រឹត្តិការណ៍</string>
+    <string name="activity2">សូមស្វាគមន៍ មកកាន់ កម្មវិធីសិក្សា</string>
+    <string name="activity3">សូមស្វាគមន៍ មកកាន់ មហាវិទ្យាល័យ</string>
+    <string name="activity4">សូមស្វាគមន៍ មកកាន់ មហាវិទ្យាល័យ</string>
+
+</resources>
