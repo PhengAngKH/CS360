@@ -1,10 +1,27 @@
 <resources>
     <string name="app_name">CS360</string>
-    <string name="Button1">MIS Curriculum</string>
+    <string name="Button1">MIS Curr.</string>
     <string name="Button2">FACULTY</string>
     <string name="Button3">EVENTS</string>
+    <string name="Button4">Resources</string>
+    <string name="Button5">FAQ</string>
+    <string name="Button6">MIS Blogs</string>
+    <string name="Button7">FB Page</string>
+    <string name="Button8">T-shirt</string>
+    <string name="Button9">Photes</string>
+    <string name="Button10">Achievemnet</string>
+    <string name="Button11">Competetions</string>
+    <string name="Button12">Job Opp.</string>
+    <string name="Button13">Coursera Rank</string>
+    <string name="Button14">MIS AB</string>
+    <string name="Button15">Handbooks</string>
+
+
     <string name="activity2">Welcome to MIS Curriculum</string>
     <string name="activity3">Welcome to FACULTY</string>
     <string name="activity4">Welcome to EVENTS</string>
     <string name="todo">TODO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

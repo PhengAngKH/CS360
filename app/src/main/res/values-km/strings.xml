@@ -3,8 +3,22 @@
     <string name="Button1">កម្មវិធីសិក្សា</string>
     <string name="Button2">មហាវិទ្យាល័យ</string>
     <string name="Button3">ព្រឹត្តិការណ៍</string>
+    <string name="Button4">ឯកសារ</string>
+    <string name="Button5">សំណួរគេសួរញឹកញាប់</string>
+    <string name="Button6">MIS ប្លុក</string>
+    <string name="Button7">Fទំព័រហ្វេសប៊ុក</string>
+    <string name="Button8">អាវយឺត</string>
+    <string name="Button9">រូបថត</string>
+    <string name="Button10">សមិទ្ធិផល</string>
+    <string name="Button11">ការប្រកួតប្រជែង</string>
+    <string name="Button12">ឱកាសការងារ</string>
+    <string name="Button13">Coursera ចំណាត់ថ្នាក់</string>
+    <string name="Button14">ក្រុមប្រឹក្សាប្រឹក្សា MIS </string>
+    <string name="Button15">សៀវភៅណែនាំ</string>
+
     <string name="activity2">សូមស្វាគមន៍ មកកាន់ កម្មវិធីសិក្សា</string>
     <string name="activity3">សូមស្វាគមន៍ មកកាន់ មហាវិទ្យាល័យ</string>
     <string name="activity4">សូមស្វាគមន៍ មកកាន់ មហាវិទ្យាល័យ</string>
+
 
 </resources>
