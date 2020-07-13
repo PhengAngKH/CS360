@@ -6,7 +6,7 @@
     <string name="Button4">ឯកសារ</string>
     <string name="Button5">សំណួរគេសួរញឹកញាប់</string>
     <string name="Button6">MIS ប្លុក</string>
-    <string name="Button7">Fទំព័រហ្វេសប៊ុក</string>
+    <string name="Button7">ទំព័រហ្វេសប៊ុក</string>
     <string name="Button8">អាវយឺត</string>
     <string name="Button9">រូបថត</string>
     <string name="Button10">សមិទ្ធិផល</string>
@@ -19,6 +19,22 @@
     <string name="activity2">សូមស្វាគមន៍ មកកាន់ កម្មវិធីសិក្សា</string>
     <string name="activity3">សូមស្វាគមន៍ មកកាន់ មហាវិទ្យាល័យ</string>
     <string name="activity4">សូមស្វាគមន៍ មកកាន់ មហាវិទ្យាល័យ</string>
+    <string name="activity5">សូមស្វាគមន៍ មកកាន់ ធនធាន</string>
+    <string name="activity6">សូមស្វាគមន៍ មកកាន់  សំណួរគេសួរញឹកញាប់</string>
+    <string name="activity7">សូមស្វាគមន៍ មកកាន់  MIS ប្លុក</string>
+    <string name="activity8">សូមស្វាគមន៍ មកកាន់  ទំព័រហ្វេសប៊ុក</string>
+    <string name="activity9">សូមស្វាគមន៍ មកកាន់  អាវយឺត</string>
+    <string name="activity10">សូមស្វាគមន៍ មកកាន់  រូបថត</string>
+    <string name="activity11">សូមស្វាគមន៍ មកកាន់  សមិទ្ធិផល</string>
+    <string name="activity12">សូមស្វាគមន៍ មកកាន់  ការប្រកួតប្រជែង</string>
+    <string name="activity13">សូមស្វាគមន៍ មកកាន់  ឱកាសការងារ</string>
+    <string name="activity14">សូមស្វាគមន៍ មកកាន់ Coursera ចំណាត់ថ្នាក់  </string>
+    <string name="activity15">សូមស្វាគមន៍ មកកាន់ ក្រុមប្រឹក្សាប្រឹក្សា MIS </string>
+    <string name="activity16">សូមស្វាគមន៍ មកកាន់  សៀវភៅណែនាំ</string>
+
+    <string name="Cirtext">You can find the list of courses you need to take for every semester and year.
+        Please select your intake year (the year you have started your path with the MIS Department).
+    </string>
 
 
 </resources>

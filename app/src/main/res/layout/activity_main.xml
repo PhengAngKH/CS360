@@ -6,31 +6,7 @@
     android:layout_height="match_parent"
     >
 
-  <android.support.v7.widget.Toolbar
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/toolbar"
-      android:background="@color/colorPrimary"
-      android:minHeight="?attr/actionBarSize"
-      android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-      >
 
-  </android.support.v7.widget.Toolbar>
-
-<android.support.design.widget.TabLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/tablayout"
-    android:background="@color/colorPrimary"
-    android:minHeight="?attr/actionBarSize"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-</android.support.design.widget.TabLayout>
-  <android.support.v4.view.ViewPager
-      android:layout_width="match_parent"
-      android:layout_height="20dp"
-      android:id="@+id/pager">
-
-  </android.support.v4.view.ViewPager>
   <!-- Head photo -->
   <ImageView
       android:id="@+id/piu_head"
@@ -73,6 +49,7 @@
           android:layout_weight="1"
           android:text="@string/Button2"
           tools:ignore="DuplicateIds"
+          android:onClick="onButtonClick2"
           android:background="@color/colorPrimary"
           android:textColor="@color/text1"
           android:layout_marginLeft="5dp"/>
@@ -83,6 +60,7 @@
           android:layout_height="80dp"
           android:layout_weight="1"
           android:text="@string/Button3"
+          android:onClick="onButtonClick3"
           android:background="@color/colorPrimary"
           android:textColor="@color/text1"
           android:layout_marginLeft="5dp"/>
@@ -105,7 +83,7 @@
           android:layout_height="80dp"
           android:layout_weight="1"
           android:text="@string/Button4"
-          android:onClick="onButtonClick1"
+          android:onClick="onButtonClick4"
           android:background="@color/colorPrimary"
           android:textColor="@color/text1" />
 
@@ -116,6 +94,7 @@
           android:layout_weight="1"
           android:text="@string/Button5"
           tools:ignore="DuplicateIds"
+          android:onClick="onButtonClick5"
           android:background="@color/colorPrimary"
           android:textColor="@color/text1"
           android:layout_marginLeft="5dp"/>
@@ -126,6 +105,7 @@
           android:layout_height="80dp"
           android:layout_weight="1"
           android:text="@string/Button6"
+          android:onClick="onButtonClick6"
           android:background="@color/colorPrimary"
           android:textColor="@color/text1"
           android:layout_marginLeft="5dp"/>
@@ -147,7 +127,7 @@
           android:layout_height="80dp"
           android:layout_weight="1"
           android:text="@string/Button7"
-          android:onClick="onButtonClick1"
+          android:onClick="onButtonClick7"
           android:background="@color/colorPrimary"
           android:textColor="@color/text1" />
 
@@ -158,6 +138,7 @@
           android:layout_weight="1"
           android:text="@string/Button8"
           tools:ignore="DuplicateIds"
+          android:onClick="onButtonClick8"
           android:background="@color/colorPrimary"
           android:textColor="@color/text1"
           android:layout_marginLeft="5dp"/>
@@ -168,6 +149,7 @@
           android:layout_height="80dp"
           android:layout_weight="1"
           android:text="@string/Button9"
+          android:onClick="onButtonClick9"
           android:background="@color/colorPrimary"
           android:textColor="@color/text1"
           android:layout_marginLeft="5dp"/>
@@ -190,7 +172,7 @@
           android:layout_height="80dp"
           android:layout_weight="1"
           android:text="@string/Button10"
-          android:onClick="onButtonClick1"
+          android:onClick="onButtonClick10"
           android:background="@color/colorPrimary"
           android:textColor="@color/text1" />
 
@@ -201,6 +183,7 @@
           android:layout_weight="1"
           android:text="@string/Button11"
           tools:ignore="DuplicateIds"
+          android:onClick="onButtonClick11"
           android:background="@color/colorPrimary"
           android:textColor="@color/text1"
           android:layout_marginLeft="5dp"/>
@@ -211,6 +194,7 @@
           android:layout_height="80dp"
           android:layout_weight="1"
           android:text="@string/Button12"
+          android:onClick="onButtonClick12"
           android:background="@color/colorPrimary"
           android:textColor="@color/text1"
           android:layout_marginLeft="5dp"/>
@@ -233,7 +217,7 @@
           android:layout_height="80dp"
           android:layout_weight="1"
           android:text="@string/Button13"
-          android:onClick="onButtonClick1"
+          android:onClick="onButtonClick13"
           android:background="@color/colorPrimary"
           android:textColor="@color/text1" />
 
@@ -244,6 +228,7 @@
           android:layout_weight="1"
           android:text="@string/Button14"
           tools:ignore="DuplicateIds"
+          android:onClick="onButtonClick14"
           android:background="@color/colorPrimary"
           android:textColor="@color/text1"
           android:layout_marginLeft="5dp"/>
@@ -254,6 +239,7 @@
           android:layout_height="80dp"
           android:layout_weight="1"
           android:text="@string/Button15"
+          android:onClick="onButtonClick15"
           android:background="@color/colorPrimary"
           android:textColor="@color/text1"
           android:layout_marginLeft="5dp"/>

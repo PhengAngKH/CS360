@@ -11,7 +11,7 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp"
-        android:background="@color/bg">
+        android:background="@color/text1">
 
     <ImageView
         android:id="@+id/piu_head1"
@@ -19,18 +19,42 @@
         android:layout_height="150dp"
         android:src="@drawable/piu_head"
         tools:ignore="MissingConstraints"
-        android:contentDescription="TODO" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/activity2"
-        android:layout_below="@+id/piu_head1"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="100dp"
-        android:textColor="@color/text"
-        />
+        android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/piu_head1"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/activity2"
+            android:textColor="@color/text" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/piu_head1"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/Cirtext"
+            android:textColor="@color/text" />
+
+        <Button
+            android:id="@+id/buttonA"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="280dp"
+            android:layout_centerHorizontal="true"
+            android:text="Click Here"
+            android:onClick="browser1"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/text1" />
+
+
 
     </RelativeLayout>
+
 
 
 

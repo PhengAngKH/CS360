@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">CS360</string>
     <string name="Button1">MIS Curr.</string>
     <string name="Button2">FACULTY</string>
@@ -8,9 +8,9 @@
     <string name="Button6">MIS Blogs</string>
     <string name="Button7">FB Page</string>
     <string name="Button8">T-shirt</string>
-    <string name="Button9">Photes</string>
-    <string name="Button10">Achievemnet</string>
-    <string name="Button11">Competetions</string>
+    <string name="Button9">Photos</string>
+    <string name="Button10">Achievement</string>
+    <string name="Button11">Competitions</string>
     <string name="Button12">Job Opp.</string>
     <string name="Button13">Coursera Rank</string>
     <string name="Button14">MIS AB</string>
@@ -18,10 +18,48 @@
 
 
     <string name="activity2">Welcome to MIS Curriculum</string>
-    <string name="activity3">Welcome to FACULTY</string>
+    <string name="activity3">ITC Faculty Members</string>
     <string name="activity4">Welcome to EVENTS</string>
-    <string name="todo">TODO</string>
+    <string name="activity5">Welcome to Resource</string>
+    <string name="activity6">Welcome to FAQ</string>
+    <string name="activity7">Welcome to MIS Blogs</string>
+    <string name="activity8">Welcome to Facebook Page</string>
+    <string name="activity9">Welcome to T-Shirt</string>
+    <string name="activity10">Welcome to Photos</string>
+    <string name="activity11">Welcome to Achievement</string>
+    <string name="activity12">Welcome to Competitions</string>
+    <string name="activity13">Welcome to Job Opportunity</string>
+    <string name="activity14">Welcome to Coursera Rank</string>
+    <string name="activity15">Welcome to MIS Advisory Board</string>
+    <string name="activity16">Welcome to Handbooks</string>
+
+    <string name="Cirtext">You can find the list of courses you need to take for every semester and year.
+        Please select your intake year (the year you have started your path with the MIS Department).
+    </string>
+    <string name="todo1" translatable="false" tools:ignore="DuplicateDefinition">TODO</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="all_dashboard">
+        <item> MIS Curr.</item>
+        <item>FALCULTY</item>
+        <item>EVETNS</item>
+        <item>Resources</item>
+        <item>FAQ</item>
+        <item>MIS Blogs</item>
+        <item>FB Page</item>
+        <item> Tshirt</item>
+        <item>Photos</item>
+        <item>Achievement</item>
+        <item>Competitions</item>
+        <item>Coursera Rank</item>
+        <item> MIS AB</item>
+
+
+    </string-array>
+
+
+
 </resources>

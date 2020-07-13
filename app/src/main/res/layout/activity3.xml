@@ -11,7 +11,7 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp"
-        android:background="@color/bg"
+        android:background="@color/text1"
         >
 
         <ImageView
@@ -19,16 +19,20 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@drawable/piu_head"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints"
+            android:contentDescription="TODO" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/activity3"
             android:layout_below="@+id/piu_head2"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="130dp"
-            android:textColor="@color/text"
+            android:gravity="center_horizontal"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="20sp"
             />
+
+
 
     </RelativeLayout>
 

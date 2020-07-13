@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@color/text1">
+
+        <ImageView
+            android:id="@+id/piu_head1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/piu_head"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/piu_head1"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/activity11"
+            android:textColor="@color/text" />
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
