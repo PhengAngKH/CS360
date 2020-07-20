@@ -1,8 +1,9 @@
 package com.zaman.project01.cs360;
 
         import android.os.Bundle;
-        import android.support.annotation.Nullable;
-        import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 
 public class Activity5 extends AppCompatActivity {
 

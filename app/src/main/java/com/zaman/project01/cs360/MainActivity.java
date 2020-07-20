@@ -1,11 +1,33 @@
 package com.zaman.project01.cs360;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity  {
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
+
+public class MainActivity extends AppCompatActivity {
+    private EditText Name;
+    private EditText Password;
+    private TextView Info;
+    private TextView Register;
+    private Button Login;
+    private int counter = 5;
+    private FirebaseAuth firebaseAuth;
+    private ProgressDialog progressDialog;
 
 
     @Override
@@ -13,88 +35,71 @@ public class MainActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-    }
-        public void onButtonClick1(View view01){
-        Intent intent = new Intent(this, Activity2.class);
-        startActivity(intent);
+        Name = (EditText) findViewById(R.id.editText);
+        Password = (EditText) findViewById(R.id.editText2);
+        Register = (TextView) findViewById(R.id.register);
+        Login = (Button) findViewById(R.id.button);
+        Info = (TextView) findViewById(R.id.info);
+
+
+        Info.setText("No of attempts remaining: 5");
+
+        firebaseAuth = FirebaseAuth.getInstance();
+        progressDialog = new ProgressDialog(this);
+
+        FirebaseUser user = firebaseAuth.getCurrentUser();
+
+        if (user != null) {
+            finish();
+            ;
+            //startActivity(new Intent(MainActivity.this, activity1.class));
+            startActivity(new Intent(MainActivity.this, activity1.class));
+        }
+
+
+        Login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                validate(Name.getText().toString(), Password.getText().toString());
+                //check up
+                //startActivity(new Intent(MainActivity.this, activity1.class));
+
+            }
+        });
+
+        Register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Register.class));
+            }
+        });
 
     }
 
-    public void onButtonClick2(View view02){
-        Intent intent = new Intent(this, Activity3.class);
-        startActivity(intent);
+    private void validate(String userName, String userPassword) {
+
+        progressDialog.setMessage("Please wait");
+        progressDialog.show();
+
+        firebaseAuth.signInWithEmailAndPassword(userName, userPassword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                if (task.isSuccessful()) {
+                    progressDialog.dismiss();
+                    Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(MainActivity.this, activity1.class));
+                } else {
+                    Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
+                    counter--;
+                    Info.setText("No of attempts remaining: " + counter);
+                    progressDialog.dismiss();
+                    if (counter == 0) {
+                        Login.setEnabled(false);
+                    }
+                }
+            }
+        });
+
 
     }
-
-    public void onButtonClick3(View view03){
-        Intent intent = new Intent(this, Activity4.class);
-        startActivity(intent);
-    }
-
-
-    public void onButtonClick4(View view04){
-        Intent intent = new Intent(this, Activity5.class);
-        startActivity(intent);
-    }
-
-    public void onButtonClick5(View view05){
-        Intent intent = new Intent(this, Activity6.class);
-        startActivity(intent);
-    }
-
-    public void onButtonClick6(View view06){
-        Intent intent = new Intent(this, Activity7.class);
-        startActivity(intent);
-    }
-
-    public void onButtonClick7(View view07){
-        Intent intent = new Intent(this, Activity8.class);
-        startActivity(intent);
-    }
-
-    public void onButtonClick8(View view08){
-        Intent intent = new Intent(this, Activity9.class);
-        startActivity(intent);
-    }
-
-    public void onButtonClick9(View view09){
-        Intent intent = new Intent(this, Activity10.class);
-        startActivity(intent);
-    }
-
-    public void onButtonClick10(View view10){
-        Intent intent = new Intent(this, Activity11.class);
-        startActivity(intent);
-    }
-
-    public void onButtonClick11(View view11){
-        Intent intent = new Intent(this, Activity12.class);
-        startActivity(intent);
-    }
-
-    public void onButtonClick12(View view12){
-        Intent intent = new Intent(this, Activity13.class);
-        startActivity(intent);
-    }
-
-    public void onButtonClick13(View view13){
-        Intent intent = new Intent(this, Activity14.class);
-        startActivity(intent);
-    }
-
-    public void onButtonClick14(View view14){
-        Intent intent = new Intent(this, Activity15.class);
-        startActivity(intent);
-    }
-
-    public void onButtonClick15(View view15){
-        Intent intent = new Intent(this, Activity16.class);
-        startActivity(intent);
-    }
-
-
-
-
-
-
 }

@@ -15,6 +15,15 @@
     <string name="Button13">Coursera ចំណាត់ថ្នាក់</string>
     <string name="Button14">ក្រុមប្រឹក្សាប្រឹក្សា MIS </string>
     <string name="Button15">សៀវភៅណែនាំ</string>
+    <string name="login">LOG IN</string>
+    <string name="username"> Username</string>
+    <string name="Password">Password</string>
+    <string name="Register">Register</string>
+    <string name="ID">Student ID</string>
+    <string name="Logout">ចាកចេញ</string>
+
+
+
 
     <string name="activity2">សូមស្វាគមន៍ មកកាន់ កម្មវិធីសិក្សា</string>
     <string name="activity3">សូមស្វាគមន៍ មកកាន់ មហាវិទ្យាល័យ</string>
@@ -31,6 +40,8 @@
     <string name="activity14">សូមស្វាគមន៍ មកកាន់ Coursera ចំណាត់ថ្នាក់  </string>
     <string name="activity15">សូមស្វាគមន៍ មកកាន់ ក្រុមប្រឹក្សាប្រឹក្សា MIS </string>
     <string name="activity16">សូមស្វាគមន៍ មកកាន់  សៀវភៅណែនាំ</string>
+    <string name="todo">TODO</string>
+
 
     <string name="Cirtext">You can find the list of courses you need to take for every semester and year.
         Please select your intake year (the year you have started your path with the MIS Department).

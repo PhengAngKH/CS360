@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="169dp"
+                android:layout_height="82dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/ic_user_foreground" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@color/bg">
+
+
+            </RelativeLayout>
+
+
+            <!-- White Block-->
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="450dp"
+                android:layout_below="@id/logo"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="21dp"
+                android:background="@color/background">
+
+                <Button
+                    android:id="@+id/buttonreg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/regpass"
+                    android:layout_centerInParent="true"
+                    android:background="@color/bg"
+                    android:text="@string/Register"
+                    android:textColor="@color/background" />
+
+                <EditText
+                    android:id="@+id/regemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/reguser"
+                    android:layout_centerInParent="true"
+                    android:ems="10"
+                    android:inputType="text|textEmailAddress"
+                    android:text="Student Email" />
+
+                <EditText
+                    android:id="@+id/regpass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/regemail"
+                    android:layout_centerInParent="true"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:text="@string/Password" />
+
+                <EditText
+                    android:id="@+id/reguser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/username" />
+
+                <TextView
+                    android:id="@+id/textrig"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="23dp"
+                    android:text="@string/Register"
+                    android:textColor="@color/bg"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/registerlog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buttonreg"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="67dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Already Regisgter? Log In" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

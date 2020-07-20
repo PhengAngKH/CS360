@@ -1,57 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/bg"
-    tools:ignore="MissingConstraints"
-    tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="0dp">
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:layout_below="@+id/piu_head"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="10dp"
-        android:onClick="onButtonClick1"
-        android:text="@string/Button1"
-        tools:ignore="OnClick"
-        />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:layout_below="@+id/piu_head"
-        android:layout_marginStart="310dp"
-        android:layout_marginTop="10dp"
-        android:onClick="onButtonClick2"
-        android:text="@string/Button2" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:layout_below="@+id/piu_head"
-        android:layout_marginStart="450dp"
-        android:layout_marginTop="10dp"
-        android:onClick="onButtonClick3"
-        android:text="@string/Button3" />
-
-
-    <ImageView
-        android:id="@+id/piu_head"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/piu_head"
-        android:contentDescription="@string/todo" />
-</RelativeLayout>
-</android.support.constraint.ConstraintLayout>
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="169dp"
+            android:layout_height="82dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/ic_user_foreground"/> />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@color/bg">
+
+
+        </RelativeLayout>
+
+
+        <!-- White Block-->
+
+        <RelativeLayout
+            android:layout_width="600dp"
+            android:layout_height="250dp"
+            android:layout_below="@id/logo"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="21dp"
+            android:background="@color/background">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText2"
+                android:layout_centerInParent="true"
+                android:background="@color/bg"
+                android:text="@string/login"
+                android:textColor="@color/background" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText"
+                android:layout_centerInParent="true"
+
+                android:ems="10"
+                android:inputType="textPassword"
+                android:text="@string/Password" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login"
+                android:layout_centerInParent="true"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/username" />
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_margin="23dp"
+                android:text="@string/login"
+                android:textColor="@color/bg"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="67dp"
+                android:layout_marginTop="25dp"
+                android:text="Number of attempt remain:" />
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="69dp"
+                android:text="Register" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+</ScrollView>
+
+
+

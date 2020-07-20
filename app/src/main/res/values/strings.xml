@@ -15,6 +15,14 @@
     <string name="Button13">Coursera Rank</string>
     <string name="Button14">MIS AB</string>
     <string name="Button15">Handbooks</string>
+    <string name="login">LOG IN</string>
+    <string name="username"> Username</string>
+    <string name="Password">Password</string>
+    <string name="Register">Register</string>
+    <string name="ID">Student ID</string>
+    <string name="Logout">Log Out</string>
+
+
 
 
     <string name="activity2">Welcome to MIS Curriculum</string>
@@ -32,6 +40,8 @@
     <string name="activity14">Welcome to Coursera Rank</string>
     <string name="activity15">Welcome to MIS Advisory Board</string>
     <string name="activity16">Welcome to Handbooks</string>
+
+
 
     <string name="Cirtext">You can find the list of courses you need to take for every semester and year.
         Please select your intake year (the year you have started your path with the MIS Department).

@@ -1,39 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
         android:background="@color/text1"
         >
 
         <ImageView
-            android:id="@+id/piu_head2"
+            android:id="@+id/piu_head1"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@drawable/piu_head"
-            tools:ignore="MissingConstraints"
-            android:contentDescription="TODO" />
+            />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/activity3"
-            android:layout_below="@+id/piu_head2"
+            android:text="@string/activity4"
+            android:layout_below="@+id/piu_head1"
             android:layout_marginTop="10dp"
             android:gravity="center_horizontal"
-            android:textColor="@color/design_default_color_primary"
-            android:textSize="20sp"
+            android:textColor="@color/text"
             />
 
-
-
     </RelativeLayout>
-
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
